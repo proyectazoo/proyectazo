@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {font-family: "Lato", sans-serif;}
+
+.tablink {
+    background-color: #555;/* color de boton sin estar seleccionado*/
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;/*color al pasar el mouse por arriba de una opcion */
+}
+
+/* Style the tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+/*se define nombre de opcion y el color que tendra*/
+#Principal {background-color:#CD6155;}
+#Catalogo {background-color:#CD6155;}
+#Reportes {background-color:#CD6155;}
+#Cuenta {background-color:#CD6155;}
+</style>
+</head>
+<body>
+
+
+
+<div id="Principal" class="tabcontent">
+  <h3>Ingreso</h3>
+  <p>Registro el usuario con nombre y contraseña</p>
+</div>
+
+<div id="Catalogo" class="tabcontent">
+  <h3>Catalogo</h3>
+  <p>Aparece todo el stock de productos, ingresar busqueda, alerta de productos bajo stock(reportes quizas?)</p> 
+</div>
+
+<div id="Reportes" class="tabcontent">
+  <h3>Reportes</h3>
+  <p>Aparecen todas las opciones de reporte , se pueden ordenar por distintos parametros y agregar archivos(productos), informacion de ventas</p>
+</div>
+
+<div id="Cuenta" class="tabcontent">
+  <h3>Cuenta</h3>
+  <p>Opciones de cuenta , ajustes , datos , cerrar sesion</p>
+</div>
+
+<button class="tablink" onclick="openCity('Principal', this, '#E74C3C')" id="defaultOpen">Principal</button>
+<button class="tablink" onclick="openCity('Catalogo', this, '#E74C3C')">Catalogo</button>
+<button class="tablink" onclick="openCity('Reportes', this, '#E74C3C')">Reportes</button>
+<button class="tablink" onclick="openCity('Cuenta', this, '#E74C3C')">Cuenta</button>
+
+<script>
+function openCity(cityName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(cityName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+     
+</body>
+</html> 

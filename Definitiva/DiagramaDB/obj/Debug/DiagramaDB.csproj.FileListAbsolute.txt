@@ -1,0 +1,13 @@
+C:\Users\Julio\Desktop\Definitiva\DiagramaDB\bin\Debug\DiagramaDB.dll.config
+C:\Users\Julio\Desktop\Definitiva\DiagramaDB\bin\Debug\DiagramaDB.dll
+C:\Users\Julio\Desktop\Definitiva\DiagramaDB\bin\Debug\DiagramaDB.pdb
+C:\Users\Julio\Desktop\Definitiva\DiagramaDB\bin\Debug\EntityFramework.dll
+C:\Users\Julio\Desktop\Definitiva\DiagramaDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Julio\Desktop\Definitiva\DiagramaDB\bin\Debug\EntityFramework.xml
+C:\Users\Julio\Desktop\Definitiva\DiagramaDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Julio\Desktop\Definitiva\DiagramaDB\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Julio\Desktop\Definitiva\DiagramaDB\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Julio\Desktop\Definitiva\DiagramaDB\obj\Debug\DiagramaDB.csprojResolveAssemblyReference.cache
+C:\Users\Julio\Desktop\Definitiva\DiagramaDB\obj\Debug\DiagramaDB.dll
+C:\Users\Julio\Desktop\Definitiva\DiagramaDB\obj\Debug\DiagramaDB.pdb
+C:\Users\Julio\Desktop\Definitiva\DiagramaDB\obj\Debug\DiagramaDB.csproj.CoreCompileInputs.cache
